@@ -17,17 +17,17 @@ int main() {
     std::cout << "Pls  input balance value  \n";
     std::cin >> balance;
 
-    if (balance < 1000) {
+    if (balance >  1000) {
         score = balance * 0.05;
-        std::cout <<  "Your score is :" << score  << " 5 %\n";
+        std::cout <<  "Your score is: " << score  << "  = > 5 %\n";
         balance  *= 1.05;
-        std::cout <<  "Your balance :" << balance << "\n";
+        std::cout <<  "Your balance: " << balance << "\n";
     }
         else{
         score = balance * 0.03;
-        std::cout <<  "Your score is :" << score  << " 5 %\n";
+        std::cout <<  "Your score is: " << score  << "  = > 3 %\n";
         balance  *= 1.03;
-        std::cout <<  "Your balance :" << balance << "\n";
+        std::cout <<  "Your balance: " << balance << "\n";
 
     }
 
